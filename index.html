@@ -6,70 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-        height: 90vh;
-    }
-
-    #perfil {
-        width: 15%;
-        border: 2px solid black;
-        border-radius: 50%;
-    }
-
-    header {
-        margin-top: 3%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header h1 {
-        font-size: 30px;
-        font-family: fantasy;
-    }
-
-    #descriçao-perfil {
-        font-size: 25px;
-        margin-top: 2%;
-        width: 70%;
-        text-align: center;
-    }
-
-    #bg-video {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        background-color: black;
-        z-index: -1;
-        opacity: 1;
-    }
-</style>
 
 <body>
 
-    <img id="bg-video" src="Design sem nome.jpg">
+    <img id="fundo" src="Design sem nome.jpg">
 
 
     <header>
-        <img id="perfil"
-            src="https://static.vecteezy.com/ti/vetor-gratis/p1/5502556-rosto-bonito-cartoon-little-cow-logo-design-vector-graphic-symbol-icon-illustration-criative-idea-vetor.jpg">
-        <h1>
-            Jaqueline Vieira
-        </h1>
+        <img id="perfil" src="bela.jpg">
+        <div id="sticky">
+            <h1>
+                Jaqueline Vieira
+            </h1>
+            <h3>Florista</h3>
+        </div>
 
         <h4 id="descriçao-perfil">
             Sou Jaqueline vieira e eu nao sei oque colocar aqui pq a jaque vai fala dps mais aqui so vou escrever umonte
@@ -77,8 +30,53 @@
         </h4>
     </header>
 
-    <section id="trabalho">
+    <hr>
 
+    <section id="trabalho">
+        <h1>Trabalhos realizados</h1>
+
+        <div id="projetos">
+            <div id="prj">
+                <img src="1.jpeg">
+                <h2>Dacaena</h2>
+                <h3>A dacaena é uma planta ornamental elegante e versátil, ideal para decoração de interiores e
+                    exteriores. Com suas folhas longas e estreitas, cores variadas e caule reto, essa planta é uma
+                    escolha popular para qualquer espaço.</h3>
+            </div>
+            <div id="prj">
+                <img src="2.jpeg">
+                <h2>Orquidia</h2>
+                <h3>As orquídeas são flores de uma beleza única e sofisticada,conhecidas por sua elegância e exotismo.
+                    Com mais de 30.000 espécies, essas plantas são um verdadeiro tesouro da natureza.</h3>
+            </div>
+            <div id="prj">
+                <img src="3.jpeg">
+                <h2>Terrários de flor</h2>
+                <h3>Terrários de flor criados com amor e cuidado trazem a beleza da natureza para o seu espaço.
+                    Combinam flores frescas, plantas exóticas e elementos naturais para um ambiente tranquilo.
+                    Cada terrário é uma obra de arte única e inspiradora.</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section id="contato">
+        <h1>Contato</h1>
+
+        <div id="ctt">
+            <p><a target="_blank" href="https://github.com/jaquelinecarneiro010"> <img src="Octicons-mark-github.svg"
+                        width="20px">Github</a>
+            <p><a target="_blank"
+                    href="https://mail.google.com/mail/u/0/?fs=1&to=jaqueline.vieira.carneiro@escola.pr.gov.br&tf=cm"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+                        width="20px">Gmail</a></p>
+        </div>
+        <div id="copy">
+            &copy;Copright Jaqueline Carneiro Vieira
+            <span>Imagens retiradas da ferramenta de Ia (Inteligencia artificial) "<mark>Meta IA</mark>".</span>
+        </div>
     </section>
 
 </body>

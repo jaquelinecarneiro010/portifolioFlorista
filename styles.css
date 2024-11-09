@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 90vh;
+}
+
+#perfil {
+    width: 15%;
+    z-index: 10;
+    height: 15%;
+    border-radius: 50%;
+    border: 2px solid black;
+    filter: drop-shadow(0 0 10px green);
+}
+
+#sticky {
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0 20px;
+    backdrop-filter: blur(20px) hue-rotate(1000deg);
+}
+
+header {
+    margin: 2% 0;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+header h3 {
+    color: green;
+}
+
+#descriçao-perfil {
+    font-size: 25px;
+    margin-top: 2%;
+    width: 70%;
+    text-align: center;
+}
+
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: black;
+    z-index: -1;
+    opacity: 1;
+}
+
+hr {
+    width: auto;
+}
+
+#trabalho {
+    margin: 2% 0;
+    text-align: center;
+}
+
+#trabalho h1 {
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+#projetos {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 3%;
+    height: auto;
+}
+
+#prj {
+    width: 27%;
+    padding: 0 1% 1% 1%;
+    border: 2px solid #529652;
+    border-radius: 8px;
+    backdrop-filter: blur(4px) hue-rotate(111deg);
+
+}
+
+#prj img {
+    margin-top: 2%;
+    border-radius: 8px;
+    border: 2px solid #529652;
+    width: 90%;
+}
+
+#prj h2 {
+    margin: 1%;
+    color: green;
+}
+
+#prj h3 {
+    font-family: cursive;
+    filter: drop-shadow(-2px 1px 3px rgb(245, 248, 245));
+}
+
+#contato {
+    padding: 1% ;
+    height: auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+#contato h1 {
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+#ctt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 1%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    text-decoration: none;
+    color: black;
+}
+#copy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
